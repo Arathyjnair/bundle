@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2aebae"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textSize="30dp"
+        android:textColor="#f5031b"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#e95313"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="30dp"
+            android:layout_marginTop="35dp"
+            android:layout_weight="1"
+android:textColor="#e5e906"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:id="@+id/nme"
+            android:inputType="text"
+            android:layout_weight="1"
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:background="#0dea23"
+
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="30dp"
+            android:textColor="#1010e4"
+            android:layout_marginTop="35dp"
+             android:layout_weight="1"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="35dp"
+            android:inputType="textEmailAddress"
+            android:id="@+id/eml"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:orientation="horizontal"
+        android:weightSum="2"
+        android:background="#e95313">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:textSize="30dp"
+            android:layout_marginTop="35dp"
+            android:layout_weight="1"
+            android:textColor="#e5e906"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:id="@+id/age"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:background="#0dea23">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textSize="30dp"
+                android:layout_marginTop="35dp"
+                android:layout_weight="1"
+                android:textColor="#1010e4"
+                />
+             <EditText
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                 android:layout_marginTop="35dp"
+                 android:layout_weight="1"
+                 android:id="@+id/pwd"/>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+
+            android:text="OK"
+            android:textSize="30dp"
+            android:layout_marginLeft="150dp"
+            android:textColor="#18c9ec"
+            android:id="@+id/okkk"
+            android:onClick="kkbuttonclick"
+            />
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
